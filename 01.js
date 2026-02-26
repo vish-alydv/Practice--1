@@ -1,37 +1,15 @@
-// let name = "Vishal"
+// for (let count=1; count<=5;count++){
+//     console.log("Hi")
 
-// console.log(name)
+// }
 
-// var age = 12
-// var age = 16
-// var age = 56
-
-// console.log(age)
+// console.log("Loop is Ended")
 
 
-// let age = 12
+let sum = 0;
 
-// age = 56
-
-// console.log(age)
-
-
-// const age = 12
-
-// age = 56
-
-// console.log(age)
-
-
-
-const Student = {
-    fullName : "Abc",
-    age : 20,
-    Cgpa : 9.0,
-    isPass : true,
+for (let i = 1; i<=5;i++){
+    sum = sum + i
 }
 
-
-Student["age"] = Student["age"] + 1
-console.log(Student.age);
-console.log(Student["age"]);
+console.log("Sum is ", sum)
